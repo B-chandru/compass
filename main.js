@@ -6,5 +6,5 @@ var direction =document.querySelector("#direction");
    direction.style.transform=`rotate(${data.coords.heading}deg)`;
   },(err)=>{
       console.error(err);
-      alert("allow to you this compass");
+      alert("allow this webapp to use your location , then only we can show you the direction:) ");
   });
