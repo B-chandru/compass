@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+
+}
+.contain{
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+}
+h1{
+    padding-bottom:40px;
+    text-transform: uppercase;
+}
+h3{
+    padding-top: 35px;
+}
+span{
+    font-weight: bold;
+}
+img{
+    background-color: white;
+    padding: 13px;
+    border-radius: 50%;
+}
