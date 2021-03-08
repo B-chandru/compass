@@ -1,6 +1,6 @@
 {
-    "short_name": "compass v1",
-    "name": "compass v1",
+    "short_name": "compass",
+    "name": "compass",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#000000",
