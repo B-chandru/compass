@@ -25,4 +25,5 @@ img{
     background-color: white;
     padding: 13px;
     border-radius: 50%;
+    transition: all 0.1s ease-in-out;
 }
