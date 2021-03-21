@@ -1,8 +1,8 @@
 var h3=document.querySelector("h3");
 var direction =document.querySelector("#direction");
-
+location.reload()
   navigator.geolocation.watchPosition((data)=>{
-    location.reload();
+
    h3.innerText = data.coords.speed;
    direction.style.transform=`rotate(${data.coords.heading}deg)`;
   },(err)=>{
