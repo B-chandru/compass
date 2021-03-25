@@ -27,3 +27,8 @@ img{
     border-radius: 50%;
     transition: all 0.1s ease-in-out;
 }
+.info{
+    margin-top: 12px;
+    display: grid;
+    place-items: center;
+}
