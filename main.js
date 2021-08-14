@@ -8,7 +8,7 @@ var direction =document.querySelector("#direction");
    direction.style.transform=`rotate(${data.coords.heading}deg)`;
   },(err)=>{
       console.error(err);
-      alert("allow to you this compass");
+      alert("allow this app to access your location !");
   });
 setTimeout(() => {
   location.reload();
