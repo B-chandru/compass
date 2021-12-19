@@ -26,10 +26,16 @@ span{
     font-weight: bold;
 }
 img{
-    /* background-color: white; */
+    background-color: white;
+
     padding: 13px;
+
     border-radius: 50%;
-    transition: all 0.3s linear 0s;
+
+    transition: all 0.1s ease-in-out
+   
+   
+
 }
 .info{
     margin-top: 12px;
