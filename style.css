@@ -32,3 +32,14 @@ img{
     display: grid;
     place-items: center;
 }
+
+
+table, th, td {
+    border-collapse: collapse;
+  }
+  table{
+    display: grid;
+    width: 164px;
+    place-content: center;
+    margin-left: -50px;
+  }
