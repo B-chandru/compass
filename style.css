@@ -15,21 +15,27 @@ h1{
     padding-bottom:40px;
     text-transform: uppercase;
 }
+
+h3{
+    padding: 10px;
+    color: red;
+}
+
+
 span{
     font-weight: bold;
 }
 img{
-    background-color: white;
+    /* background-color: white; */
     padding: 13px;
     border-radius: 50%;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s linear 0s;
 }
 .info{
     margin-top: 12px;
     display: grid;
     place-items: center;
 }
-
 
 table, th, td {
     border-collapse: collapse;
